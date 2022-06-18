@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     margin: 1% 5%;
-    background-color:#252629;
+    background-color:#000000ee;
 }
 
 main {
@@ -12,7 +12,8 @@ main {
 
 
 .box {
-    box-shadow: .1em .1em .2em #c58308;
+    box-shadow: .1em .1em .2em #29251d;
+    border-color: #bdb9b2;
     border-radius: .4em;
     border-width: .01em;
     border-style: solid;
@@ -44,4 +45,24 @@ ul {
     margin: 0em 0em .3em 0em;
     list-style-type: square;
     padding-left: 1.4em;
+}
+
+li{
+    color: rgb(223, 210, 197);
+}
+
+a{
+    color:#e29e76ee
+}
+
+a:active{
+    color: #ff9d1cee;
+}
+
+a:hover{
+    color: #f8b359ee;
+}
+
+a:visited{
+    color: #e48e5cee;
 }
